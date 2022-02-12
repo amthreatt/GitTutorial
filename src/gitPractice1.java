@@ -1,5 +1,5 @@
 public class gitPractice1 {
-    public static void main (String[]args){
+    public static void printName(){
         String str = "My name is Amelia";
         int k = 0;
         for(int i =0; i < str.length(); i++){
