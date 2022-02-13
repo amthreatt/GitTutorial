@@ -9,4 +9,4 @@ After you have a project made you will use the `$ git init` command to initializ
 
 ## Add to Staging
 In your java project you will have classes, to commit those classes and changes to your repo you will need to stage them first. You will use the `$ git add (path to file)` command to do that, for the file you will want the path to the file, this again can also be found in your IDE it could look something like this `/Users/yourName/ProjectName/src/className.java` but you’ll probably only need `src/className.java` to add it to the staging area. 
-![enter image description here](https://ibb.co/30HN3rV)
+![enter image description here](GitTutorial/Screen Shot 2022-02-12 at 2.26.24 PM.png)
