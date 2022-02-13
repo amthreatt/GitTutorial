@@ -38,5 +38,5 @@ After each new commit to your local repo remember to use `$ git push`
 
 That command has made the branch and pushed the changes to the branch, once you are done with the branch you can merge it back to the main branch. In GitHub, you’ll need to create a pull request of the changes you made, then you will merge the pull request. After the pull request has been successful merged you can delete the branch. 
 
-Now once you look at all your files in GitHub you will see all the files you committed and merges you've made along with their messages.  
+Now once you look at all your files in GitHub you will see all the files you committed and merges you've made along with their messages.   
 
