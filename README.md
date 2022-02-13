@@ -11,7 +11,7 @@ After you have a project made you will use the `$ git init` command to initializ
 In your java project you will have classes, to commit those classes and changes to your repo you will need to stage them first. You will use the `$ git add (path to file)` command to do that, for the file you will want the path to the file, this again can also be found in your IDE it could look something like this `/Users/yourName/ProjectName/src/className.java` but you’ll probably only need `src/className.java` to add it to the staging area. 
 ![](https://github.com/amthreatt/GitTutorial/blob/b7c67564c653513d0d3f80d0a5a507188e68b151/Screen%20Shot%202022-02-12%20at%204.27.12%20PM.png)Now if you want to add all the files to the staging area you could use `$ git add -A` this will add every file in your project, if you just want to add the java files/class files use `$ git add *.java`
 
-In the event, you want to remove every file from your staging area use $ git reset this will not fully delete the file from your computer it will just unstage them at the moment. 
+In the event, you want to remove every file from your staging area use `$ git reset` this will not fully delete the file from your computer it will just unstage them at the moment. 
 
 ## Committing to Repository
 Committing a file means the current version of the file in the repo will be overridden, adding a message describing the commit is recommended for keeping track of everything. Everything is the staging area will be committed to the repository at once, the command to do this is `$ git commit -m “Message”`
@@ -19,7 +19,7 @@ Committing a file means the current version of the file in the repo will be over
 If after committing you are taken to a separate command window to add a message, simply input your message for the commit in a line without “#” and once you are done perform hit `Esc=> type :wq=> enter` this should take you back to the original terminal window. 
 
 ## Working in Remote Repository (GitHub)
-In this section we will be connecting to a remote repository through grit hub, there are other remote repo options git Kraken serves the same purposes for example. But for this tutorial, we will be using git hub. 
+In this section we will be connecting to a remote repository through git hub, there are other remote repo options git Kraken serves the same purposes for example. But for this tutorial, we will be using git hub. 
 
 So first once you get to your GitHub page, you'll need to **make a new repository**. Click the plus sign and then go to the place where it says New repository
 ![](https://github.com/amthreatt/GitTutorial/blob/b7c67564c653513d0d3f80d0a5a507188e68b151/Screen%20Shot%202022-02-12%20at%202.26.24%20PM.png)
@@ -36,7 +36,7 @@ Once imputed into the terminal it will notify you have switched to a new branch.
 Create the branch in the remote repo use `$ git push -u origin (name of branch)`
 After each new commit to your local repo remember to use `$ git push` 
 
-That command has made the branch and pushed the changes to the branch, once you are done with the branch you can merge it back to the main branch. In GitHub, you’ll need to create a pull request of the changes you made, then you will merge the pull request. After the pull request has been successful merges you can delete the branch. 
+That command has made the branch and pushed the changes to the branch, once you are done with the branch you can merge it back to the main branch. In GitHub, you’ll need to create a pull request of the changes you made, then you will merge the pull request. After the pull request has been successful merged you can delete the branch. 
 
 Now once you look at all your files in GitHub you will see all the files you committed and merges you've made along with their messages.  
 
