@@ -32,4 +32,11 @@ Now that the repository is made we can work on making branches, and merging them
 To create a local branch execute the command `$ git checkout -b (new branch name)`
 
 Once imputed into the terminal it will notify you have switched to a new branch. At this point, you can make modifications to your original code. If you need to see the difference between the original and modified code you can use the `$ git diff command`, it will highlight the changes made in the file. After you’ve made a change in your file you will need to commit the changes again using `$ git commit -m “Message”`
+![](https://github.com/amthreatt/GitTutorial/blob/50edfd128f517c37b2056a194ba37006de2b9704/Screen%20Shot%202022-02-12%20at%203.25.11%20PM.png)
+Create the branch in the remote repo use `$ git push -u origin (name of branch)`
+After each new commit to your local repo remember to use `$ git push` 
+
+That command has made the branch and pushed the changes to the branch, once you are done with the branch you can merge it back to the main branch. In GitHub, you’ll need to create a pull request of the changes you made, then you will merge the pull request. After the pull request has been successful merges you can delete the branch. 
+
+Now once you look at all your files in GitHub you will see all the files you committed and merges you've made along with their messages.  
 
